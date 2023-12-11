@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import About from './Pages/About/About'
 import Projects from "./Pages/Projects/Projects";
 import Contact from "./Pages/Contact/Contact";
+
 const router = createBrowserRouter([
     {
       path: "/",
@@ -27,6 +28,7 @@ const router = createBrowserRouter([
             path: '/contact',
             element: <Contact></Contact>
         }
+        
       ]
     },
   ]);
