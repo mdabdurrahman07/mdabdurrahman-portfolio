@@ -7,6 +7,9 @@ import { GrDocumentDownload } from "react-icons/gr";
 import { Link } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter'
 const PDF_FILE_URL = 'http://localhost:5173/RESUME_LOADING.pdf'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 const Info = () => {
     const download_file = (url) => {
         const fileName = url.split('/').pop()
@@ -18,7 +21,7 @@ const Info = () => {
         aTag.remove()
     }
     return (
-        <div className='space-y-7'>
+        <div className='space-y-7' data-aos="fade-up">
             <h1 className="text-5xl font-bold">Hi, I'm <span className="bg-gradient-to-r from-blue-500 to-teal-500"
             style={{
                 backgroundClip: 'text',
