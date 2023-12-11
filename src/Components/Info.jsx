@@ -6,7 +6,17 @@ import { FaInstagram } from "react-icons/fa";
 import { GrDocumentDownload } from "react-icons/gr";
 import { Link } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter'
+const PDF_FILE_URL = 'http://localhost:5173/RESUME_LOADING.pdf'
 const Info = () => {
+    const download_file = (url) => {
+        const fileName = url.split('/').pop()
+        const aTag = document.createElement('a')
+        aTag.href=url
+        aTag.setAttribute('download', fileName)
+        document.body.appendChild(aTag)
+        aTag.click()
+        aTag.remove()
+    }
     return (
         <div className='space-y-7'>
             <h1 className="text-5xl font-bold">Hi, I'm <span className="bg-gradient-to-r from-blue-500 to-teal-500"
@@ -46,7 +56,8 @@ const Info = () => {
             </div>
             {/* resume download */}
             <div>
-                <button className="text-white bg-gradient-to-r from-cyan-500 to-blue-500  px-4 py-2 flex justify-center items-center gap-3 
+                <button onClick={()=> {download_file(PDF_FILE_URL)}}
+                className="text-white bg-gradient-to-r from-cyan-500 to-blue-500  px-4 py-2 flex justify-center items-center gap-3 
                 shadow-lg shadow-indigo-500/50 rounded-xl font-semibold text-lg">
                     <span><GrDocumentDownload className="font-extrabold text-lg animate-bounce"></GrDocumentDownload></span>
                     <span>Resume</span>
