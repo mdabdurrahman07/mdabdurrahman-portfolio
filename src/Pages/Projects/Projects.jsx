@@ -13,7 +13,7 @@ import 'aos/dist/aos.css';
 AOS.init();
 const Projects = () => {
     return (
-        <div className="max-w-6xl mx-auto my-20">
+        <div className="max-w-6xl mx-auto my-20 p-4">
             <h1 className="text-5xl font-bold text-teal-500 text-center my-8">Projects</h1>
             {/* card */}
             <div className='space-y-4'>

@@ -1,8 +1,52 @@
+/* eslint-disable react/no-unescaped-entities */
+import { MdMarkEmailRead } from "react-icons/md";
+import { MdCall } from "react-icons/md";
+import { FaMap } from "react-icons/fa";
+import Lottie from "lottie-react";
+import about from "../../assets/about/Animation - 1702317100985.json";
+import { Typewriter } from "react-simple-typewriter";
 const About = () => {
     return (
+        <>
+        <div className="max-w-6xl mx-auto my-20 p-4">
+        <h1 className="text-5xl font-bold text-teal-500 text-center my-8">About</h1>
+        <div className="flex-row lg:flex justify-center items-center gap-10 p-4">
         <div>
-            
+        <Lottie animationData={about}></Lottie>
         </div>
+        <div className="space-y-6">
+        <h1 className="text-4xl font-bold">Hi, I'm <span className="bg-gradient-to-r from-blue-500 to-teal-500"
+            style={{
+                backgroundClip: 'text',
+                WebkitBackgroundClip: 'text',
+                color: 'transparent',
+              }}
+            >MD Abdur Rahman</span>
+            </h1>
+            <h1 className='text-3xl font-bold'>
+            <Typewriter
+            words={['MERN Stack Developer', 'Web Developer' , 'React Developer']}
+            loop={true}
+            cursor
+            cursorStyle='_'
+            typeSpeed={50}
+            deleteSpeed={50}
+            delaySpeed={2000}
+          
+          />
+            </h1>
+            <h1 className='text-xl font-medium '>
+            I am developing digital symphonies with MERN magic. <br /> Newbie coder, boundlessly curious, and fueled by the<br /> quest for elegant solutions.
+            </h1>
+            <div>
+                <span className="flex  gap-4 items-center font-medium text-xl"><MdMarkEmailRead></MdMarkEmailRead> jamilrahman2001@gamil.com</span>
+                <span  className="flex  gap-4 items-center font-medium text-xl"><MdCall></MdCall> 01329433486</span>
+                <span  className="flex gap-4 items-center font-medium text-xl"><FaMap></FaMap> Dhaka, Bangladesh</span>
+            </div>
+        </div>
+        </div>
+        </div>
+        </>
     );
 };
 
