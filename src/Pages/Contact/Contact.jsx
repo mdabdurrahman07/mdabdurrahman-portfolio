@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import logos from '../../assets/png/logo-no-background-2.png'
 import Swal from 'sweetalert2'
-import { Helmet } from "react-helmet-async";
+// import { Helmet } from "react-helmet-async";
 /* eslint-disable react/no-unescaped-entities */
 const Contact = () => {
     const form = useRef();
@@ -29,9 +29,9 @@ const Contact = () => {
   };
     return (
         <div className="max-w-6xl mx-auto my-20 p-4">
-             <Helmet>
+             {/* <Helmet>
                 <title>MD Abdur Rahman | Contact</title>
-            </Helmet>
+            </Helmet> */}
          <h1 className="text-5xl font-bold text-teal-500 text-center my-12">Get in Touch</h1> 
          <div className="flex-row lg:flex justify-between items-center gap-5 lg:gap-10">
             <div className="flex-1 space-y-5">
