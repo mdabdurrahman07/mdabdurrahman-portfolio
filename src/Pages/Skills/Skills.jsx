@@ -51,11 +51,11 @@ const Skills = () => {
           </div>
           <div className="flex-row  mx-auto">
           <div className="radial-progress text-orange-600" style={{"--value":78}} role="progressbar">72%</div>
-          <span className="font-bold text-xl flex flex-col  items-center my-2 text-orange-600"><FaBootstrap className="text-3xl"></FaBootstrap>Firebase</span>
+          <span className="font-bold text-xl flex flex-col  items-center my-2 text-orange-600"><IoLogoFirebase className="text-3xl"></IoLogoFirebase>Firebase</span>
           </div>
           <div className="flex-row  mx-auto">
           <div className="radial-progress text-purple-600" style={{"--value":78}} role="progressbar">76%</div>
-          <span className="font-bold text-xl flex flex-col  items-center my-2 text-purple-600"><IoLogoFirebase className="text-3xl"></IoLogoFirebase>Bootstrap</span>
+          <span className="font-bold text-xl flex flex-col  items-center my-2 text-purple-600"><FaBootstrap className="text-3xl"></FaBootstrap>Bootstrap</span>
           </div>
          
       

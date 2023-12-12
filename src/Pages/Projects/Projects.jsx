@@ -10,10 +10,14 @@ import quill from '../../assets/webs/quil.png'
 import elegant from '../../assets/webs/elegant.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Helmet } from 'react-helmet-async';
 AOS.init();
 const Projects = () => {
     return (
         <div className="max-w-6xl mx-auto my-20 p-4">
+              <Helmet>
+                <title>MD Abdur Rahman | Projects</title>
+            </Helmet>
             <h1 className="text-5xl font-bold text-teal-500 text-center my-8">Projects</h1>
             {/* card */}
             <div className='space-y-4'>
