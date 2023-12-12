@@ -15,6 +15,7 @@ const Contact = () => {
       .then((result) => {
           console.log(result.text);
           if(result.text){
+            e.target.rest()
             Swal.fire({
                 title: "Well Done",
                 text: "Thanks for your message !",
