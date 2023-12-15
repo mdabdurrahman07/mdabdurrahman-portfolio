@@ -48,7 +48,7 @@ const Info = () => {
 
             {/* socail media  */}
             <div className='flex gap-6'>
-            <Link to="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank">
+            <Link to="https://www.linkedin.com/in/md-abdur-rahman-nur-jamil-8b29412a5/" target="_blank">
             <FaLinkedin className="text-3xl text-sky-500"></FaLinkedin></Link>
              <Link to="https://github.com/mdabdurrahman07" target="_blank">
                 <FaGithub className="text-3xl text-zinc-600"></FaGithub></Link>
