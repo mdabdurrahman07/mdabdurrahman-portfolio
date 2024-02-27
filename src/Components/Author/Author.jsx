@@ -1,4 +1,4 @@
-import profile from '../../assets/pp/jamil-prof.jpg'
+// import profile from '../../assets/pp/jamil-prof.jpg'
 import './author.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -13,7 +13,7 @@ const Author = () => {
     }
     return (
         <div className='flex justify-center my-10 lg:my-0' data-aos="fade-down">
-            <img src={profile} alt="" className='w-64 shadow-lg shadow-emerald-500/50' style={{...animationStyle}}/>
+            <img src="https://i.ibb.co/HTmw43j/IMG-2410-01.jpg" alt="" className='w-64 shadow-lg shadow-emerald-500/50' style={{...animationStyle}}/>
         </div>
     );
 };
