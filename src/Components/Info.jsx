@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import { GrDocumentDownload } from "react-icons/gr";
 import { Link } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter'
-const PDF_FILE_URL = 'https://md-abdur-rahman-fb9bd.web.app/MD-Abdur-Rahman-Nur-Jamil-Resume.pdf'
+const PDF_FILE_URL = 'https://md-abdur-rahman-fb9bd.web.app/MD_Abdur_Rahman_Nur_Jamil_RESUME_2024.pdf'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
