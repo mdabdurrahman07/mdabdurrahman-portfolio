@@ -11,7 +11,7 @@ const About = () => {
         <h1 className="text-5xl font-bold text-teal-500 text-center my-8">About</h1>
         <div className="flex-row lg:flex justify-between items-center gap-10 p-4">
         <div>
-       <img src={jamil} alt="" className="max-w-md rounded-xl" />
+       <img src={jamil} alt="" className="max-w-xs md:max-w-md rounded-xl mx-auto mb-3" />
         </div>
         <div className="space-y-6">
         <h1 className="text-4xl font-bold">Hi, I'm <span className="bg-gradient-to-r from-blue-500 to-teal-500"
