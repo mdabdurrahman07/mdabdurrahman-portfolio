@@ -22,7 +22,7 @@ const Projects = () => {
             <h1 className="text-5xl font-bold text-teal-500 text-center my-8">Projects</h1>
             {/* card */}
             <div className='space-y-4'>
-            <div className="flex-row lg:flex justify-evenly items-center p-4 gap-10 shadow-lg shadow-blue-500/50 " data-aos="fade-up">
+            <div className="flex-row lg:flex justify-evenly items-center p-4 gap-10 shadow-lg shadow-blue-500/50 " data-aos="zoom-in-up">
                 <div className='rounded-xl w-full lg:w-3/5'>
                   <img src={unity} alt="" />
                 </div>
@@ -46,7 +46,7 @@ const Projects = () => {
                </div>
                 </div>
             </div>
-            <div className="flex-row lg:flex justify-evenly items-center p-4 gap-10 shadow-lg shadow-rose-500/50 " data-aos="fade-up">
+            <div className="flex-row lg:flex justify-evenly items-center p-4 gap-10 shadow-lg shadow-rose-500/50 " data-aos="zoom-in-up">
                 <div className='rounded-xl w-full lg:w-3/5'>
                   <img src={moment} alt="" />
                 </div>
@@ -70,7 +70,7 @@ const Projects = () => {
                </div>
                 </div>
             </div>
-            <div className=" flex-row lg:flex justify-evenly items-center p-4 gap-10 shadow-lg shadow-cyan-500/50 " data-aos="fade-up">
+            <div className=" flex-row lg:flex justify-evenly items-center p-4 gap-10 shadow-lg shadow-cyan-500/50 " data-aos="zoom-in-up">
                 <div className='rounded-xl w-full lg:w-3/5'>
                   <img src={quill} alt="" />
                 </div>
@@ -93,7 +93,7 @@ const Projects = () => {
                </div>
                 </div>
             </div>
-            <div className=" flex-row lg:flex justify-evenly items-center p-4 gap-10 shadow-lg shadow-purple-500/50 " data-aos="fade-up">
+            <div className=" flex-row lg:flex justify-evenly items-center p-4 gap-10 shadow-lg shadow-purple-500/50 " data-aos="zoom-in-up">
                 <div className='rounded-xl w-full lg:w-3/5'>
                   <img src={elegant} alt="" />
                 </div>

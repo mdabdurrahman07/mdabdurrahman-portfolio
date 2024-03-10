@@ -48,13 +48,13 @@ const Info = () => {
 
             {/* socail media  */}
             <div className='flex gap-6'>
-            <Link to="https://www.linkedin.com/in/md-abdur-rahman-nur-jamil-8b29412a5/" target="_blank">
+            <Link className="hover:-translate-y-2 transition-all" to="https://www.linkedin.com/in/md-abdur-rahman-nur-jamil-8b29412a5/" target="_blank">
             <FaLinkedin className="text-3xl text-sky-500"></FaLinkedin></Link>
-             <Link to="https://github.com/mdabdurrahman07" target="_blank">
+             <Link className="hover:-translate-y-2 transition-all" to="https://github.com/mdabdurrahman07" target="_blank">
                 <FaGithub className="text-3xl text-zinc-600"></FaGithub></Link>
-             <Link to="https://www.instagram.com/jamil.official_07/" target="_blank">
+             <Link className="hover:-translate-y-2 transition-all" to="https://www.instagram.com/jamil.official_07/" target="_blank">
                 <FaInstagram className="text-3xl text-pink-500"></FaInstagram></Link>
-             <Link to="https://www.facebook.com/mdabdurrahmannurjamil" target="_blank">
+             <Link className="hover:-translate-y-2 transition-all" to="https://www.facebook.com/mdabdurrahmannurjamil" target="_blank">
                 <FaFacebook className="text-3xl text-blue-500"></FaFacebook></Link>
             </div>
             {/* resume download */}

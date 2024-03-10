@@ -38,7 +38,7 @@ const About = () => {
             I am developing digital symphonies with MERN magic. <br /> Newbie coder, boundlessly curious, and fueled by the<br /> quest for elegant solutions.
             </h1>
             <div>
-                <span className="flex  gap-4 items-center font-medium text-xl"><MdMarkEmailRead></MdMarkEmailRead> mdabdurrahmannurjamil@gmail.com</span>
+                <span className="flex  gap-4 items-center font-medium text-xl"><MdMarkEmailRead></MdMarkEmailRead><span className="truncate"> mdabdurrahmannurjamil@gmail.com</span></span>
                 <span  className="flex  gap-4 items-center font-medium text-xl"><MdCall></MdCall> +8801780714195</span>
                 <span  className="flex gap-4 items-center font-medium text-xl"><FaMap></FaMap> Dhaka, Bangladesh</span>
             </div>
