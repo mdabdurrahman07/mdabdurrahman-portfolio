@@ -28,7 +28,7 @@ const Contact = () => {
       });
   };
     return (
-        <div className="max-w-6xl mx-auto my-20 p-4">
+        <div  className="max-w-6xl mx-auto my-20 p-4">
              {/* <Helmet>
                 <title>MD Abdur Rahman | Contact</title>
             </Helmet> */}
@@ -53,11 +53,11 @@ const Contact = () => {
             <div className="flex-1 mt-5 md:mt-0">
             <form ref={form} onSubmit={sendEmail} className="space-y-5">
             
-            <input className="bg-[#fff] border border-[#33353F] placeholder-[#9CA2A9] text-slate-800 text-sm rounded-lg block w-full p-2.5" type="text" name="user_name" placeholder="Your Name"/>
+            <input className="bg-gray-800 border border-[#33353F] placeholder-[#9CA2A9] text-slate-800 text-sm rounded-lg block w-full p-2.5" type="text" name="user_name" placeholder="Your Name"/>
            
-            <input className="bg-[#fff] border border-[#33353F] placeholder-[#9CA2A9] text-slate-800 text-sm rounded-lg block w-full p-2.5" type="email" name="user_email" placeholder="Your Email" />
+            <input className="bg-gray-800 border border-[#33353F] placeholder-[#9CA2A9] text-slate-800 text-sm rounded-lg block w-full p-2.5" type="email" name="user_email" placeholder="Your Email" />
             
-            <textarea className="bg-[#fff] border border-[#33353F] placeholder-[#9CA2A9] text-slate-80 text-sm rounded-lg block w-full p-2.5" rows={3} name="message" placeholder="Your Message"/>
+            <textarea className="bg-gray-800 border border-[#33353F] placeholder-[#9CA2A9] text-slate-80 text-sm rounded-lg block w-full p-2.5" rows={3} name="message" placeholder="Your Message"/>
             <input className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-cyan-500 to-blue-500 text-white" type="submit" value="Send" />
     </form>
             </div>

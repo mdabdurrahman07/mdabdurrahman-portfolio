@@ -12,7 +12,7 @@ const Footer = () => {
       }, []);
     return (
         <div className="max-w-6xl mx-auto">
-                <footer className="footer footer-center p-4 bg-neutral-200 text-base-content">
+                <footer className="footer footer-center p-4 bg-black text-base-content">
         <aside>
             <p className="text-lg font-medium">Copyright © {currentYear} - All right reserved by MD Abdur Rahman</p>
         </aside>

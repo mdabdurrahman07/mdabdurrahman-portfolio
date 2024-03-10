@@ -10,7 +10,9 @@ const Main = () => {
       <title>MD Abdur Rahman | HOME</title>
           </Helmet> */}
             <Header></Header>
-           <Outlet/> 
+          <div className="min-h-[78vh]">
+          <Outlet/> 
+          </div>
            <Footer></Footer>
         </div>
     );

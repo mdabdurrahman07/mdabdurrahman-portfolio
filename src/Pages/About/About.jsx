@@ -2,17 +2,16 @@
 import { MdMarkEmailRead } from "react-icons/md";
 import { MdCall } from "react-icons/md";
 import { FaMap } from "react-icons/fa";
-import Lottie from "lottie-react";
-import about from "../../assets/about/Animation - 1702317100985.json";
+import jamil from "../../assets/pp/md_abdur_rahman.jpg"
 import { Typewriter } from "react-simple-typewriter";
 const About = () => {
     return (
         <>
-        <div className="max-w-6xl mx-auto my-20 p-4">
+        <div  className="max-w-6xl mx-auto my-20 p-4">
         <h1 className="text-5xl font-bold text-teal-500 text-center my-8">About</h1>
-        <div className="flex-row lg:flex justify-center items-center gap-10 p-4">
+        <div className="flex-row lg:flex justify-between items-center gap-10 p-4">
         <div>
-        <Lottie animationData={about}></Lottie>
+       <img src={jamil} alt="" className="max-w-md rounded-xl" />
         </div>
         <div className="space-y-6">
         <h1 className="text-4xl font-bold">Hi, I'm <span className="bg-gradient-to-r from-blue-500 to-teal-500"
