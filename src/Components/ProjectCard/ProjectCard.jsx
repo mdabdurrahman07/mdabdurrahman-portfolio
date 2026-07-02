@@ -66,12 +66,16 @@ const ProjectCard = ({ project, setSelectedProject }) => {
           <Link
             to={github}
             target="_blank"
-            className="btn btn-outline btn-primary flex-1"
+            className="flex-1 cursor-pointer rounded-xl border-2 border-cyan-500  text-center px-2.5 py-1.5 text-cyan-500 shadow-lg shadow-cyan-500/10 transition-all duration-200 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white active:scale-95"
           >
             GitHub
           </Link>
 
-          <Link to={live} target="_blank" className="btn btn-primary flex-1">
+          <Link
+            to={live}
+            target="_blank"
+            className="flex-1 cursor-pointer rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500 px-2.5 py-1.5  text-center text-white shadow-lg shadow-cyan-500/20 transition-all duration-200 hover:from-cyan-600 hover:to-blue-600 active:scale-95"
+          >
             Live Demo
           </Link>
         </div>
