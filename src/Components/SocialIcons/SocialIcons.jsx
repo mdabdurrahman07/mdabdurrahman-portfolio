@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 const SocialIcons = () => {
     return (
          <div className="flex gap-5 pt-4">
@@ -21,7 +22,7 @@ const SocialIcons = () => {
             </Link>
             <Link
               className="hover:-translate-y-1.5 transition-transform p-2 bg-gray-800 rounded-full hover:bg-gray-700"
-              to="https://www.instagram.com/jamil.official_07/"
+              to="https://www.instagram.com/mdabdurrahman.me"
               target="_blank"
               aria-label="Instagram"
             >
@@ -34,6 +35,14 @@ const SocialIcons = () => {
               aria-label="Facebook"
             >
               <FaFacebook className="text-2xl text-blue-400" />
+            </Link>
+            <Link
+              className="hover:-translate-y-1.5 transition-transform p-2 bg-gray-800 rounded-full hover:bg-gray-700"
+              to="https://x.com/mabdurrahman07"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <FaXTwitter className="text-2xl text-stone-200" />
             </Link>
           </div>
     );
