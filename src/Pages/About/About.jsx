@@ -46,11 +46,31 @@ const About = () => {
                 delaySpeed={2000}
               />
             </h1>
-            <h1 className="text-xl font-medium ">
-              I am developing digital symphonies with MERN magic. <br /> Newbie
-              coder, boundlessly curious, and fueled by the
-              <br /> quest for elegant solutions.
-            </h1>
+            <div>
+              <h1 className="text-md font-medium">
+                <div className="space-y-1">
+                  <p>
+                    Two years ago, I entered the tech world as a curious novice,
+                    writing what I called "digital symphonies with MERN magic."
+                    Today, I am a seasoned Full-Stack Web Developer specializing
+                    in building scalable, type-safe, and intelligent web
+                    applications.
+                  </p>
+                  <p>
+                    My current toolkit features TypeScript, PostgreSQL, and
+                    Prisma ORM, with a heavy engineering focus on AI-driven web
+                    development. I am deeply passionate about technology,
+                    hard-working, and thrive on transforming complex problems
+                    into elegant, production-ready code.
+                  </p>
+                  <p>
+                    When I am not in my IDE, you will find me exploring city
+                    lanes with my camera, practicing street photography to
+                    capture the world's raw, unscripted moments.
+                  </p>
+                </div>
+              </h1>
+            </div>
             <div>
               <span className="flex  gap-4 items-center font-medium text-xl">
                 <MdMarkEmailRead></MdMarkEmailRead>
