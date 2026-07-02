@@ -2,178 +2,127 @@ import unity from "../../assets/webs/unity-spark.jpg";
 import momentum from "../../assets/webs/momentum.png";
 import quill from "../../assets/webs/quil.png";
 import elegant from "../../assets/webs/elegant.png";
-
-export const projects = [
-  {
-    id: 1,
-    title: "Unity Spark",
-    slug: "unity-spark",
-
-    category: "Full Stack",
-    year: 2024,
-    status: "Completed",
-    featured: true,
-
-    image: unity,
-
-    shortDescription:
-      "A collaborative HRM platform featuring attendance tracking, video meetings, chat, payroll, and training management.",
-
-    longDescription:
-      "Unity Spark is a modern Human Resource Management platform designed to simplify workforce management. It includes role-based authentication, employee management, attendance tracking, task assignment, payroll, integrated video meetings, real-time messaging, and training management. The system provides separate dashboards for administrators and employees, enabling efficient collaboration and organizational workflow.",
-
-    highlights: [
-      "Role-based Authentication",
-      "Employee Dashboard",
-      "Attendance Tracking",
-      "Task Management",
-      "Training Management",
-      "Real-time Chat",
-      "Integrated Video Meetings",
-      "Stripe Payment Integration"
-    ],
-
-    technologies: [
-      "React",
-      "Node",
-      "Express",
-      "MongoDB",
-      "Firebase",
-      "Stripe"
-    ],
-
-    github:
-      "https://github.com/mursalinmirme/unity-spark/tree/Jamil",
-
-    live:
-      "https://unity-spark-22122.web.app/"
-  },
-
-  {
-    id: 2,
-    title: "Momentum Daily",
-    slug: "momentum-daily",
-
-    category: "Full Stack",
-    year: 2023,
-    status: "Completed",
-
-    featured: true,
-
-    image: momentum,
-
-    shortDescription:
-      "Modern newspaper platform with article publishing, premium subscriptions, Stripe payment, and an admin dashboard.",
-
-    longDescription:
-      "Momentum Daily is a full-stack newspaper platform where users can browse articles, purchase premium memberships, and read exclusive content. Administrators can manage users, publish articles, approve submissions, and monitor the platform through a dedicated dashboard.",
-
-    highlights: [
-      "JWT Authentication",
-      "Premium Membership",
-      "Stripe Payments",
-      "Article Publishing",
-      "Admin Dashboard",
-      "Responsive Design"
-    ],
-
-    technologies: [
-      "React",
-      "Node",
-      "Express",
-      "MongoDB",
-      "Firebase",
-      "Stripe"
-    ],
-
-    github:
-      "https://github.com/mdabdurrahman07/Momentum-Daily-Client",
-
-    live:
-      "https://momentum-daily.web.app/"
-  },
-
-  {
-    id: 3,
-    title: "Quill Quest",
-    slug: "quill-quest",
-
-    category: "Full Stack",
-    year: 2023,
-    status: "Completed",
-
-    featured: true,
-
-    image: quill,
-
-    shortDescription:
-      "Book management platform with authentication, CRUD operations, and admin functionality.",
-
-    longDescription:
-      "Quill Quest is a book management application where users can browse, add, update, and manage books through an intuitive interface. The application includes secure authentication, CRUD operations, and an administrator panel for managing platform content.",
-
-    highlights: [
-      "User Authentication",
-      "Book CRUD Operations",
-      "Admin Panel",
-      "Responsive UI",
-      "Protected Routes"
-    ],
-
-    technologies: [
-      "React",
-      "Node",
-      "Express",
-      "MongoDB",
-      "Firebase"
-    ],
-
-    github:
-      "https://github.com/mdabdurrahman07/Quill-Quest-Client",
-
-    live:
-      "https://quillquest-92dfc.web.app/"
-  },
-
-  {
-    id: 4,
-    title: "Elegant Auto",
-    slug: "elegant-auto",
-
-    category: "Full Stack",
-    year: 2023,
-    status: "Completed",
-
-    featured: true,
-
-    image: elegant,
-
-    shortDescription:
-      "Car rental platform with booking functionality and complete CRUD operations.",
-
-    longDescription:
-      "Elegant Auto is a car rental platform where users can browse available vehicles, reserve cars, and manage bookings. Administrators can efficiently add, update, and remove vehicles while maintaining the overall inventory through a secure dashboard.",
-
-    highlights: [
-      "Car Booking",
-      "CRUD Operations",
-      "Firebase Authentication",
-      "Responsive Layout",
-      "Protected Routes"
-    ],
-
-    technologies: [
-      "React",
-      "Node",
-      "Express",
-      "MongoDB",
-      "Firebase"
-    ],
-
-    github:
-      "https://github.com/mdabdurrahman07/Elegant-Auto-Client",
-
-    live:
-      "https://elegant-auto.web.app/"
-  }
+import tdn from "../../assets/webs/daily_narrative_backend.png"
+export const projects = [ 
+  { 
+    id: 1, 
+    title: "The Daily Narrative Backend", 
+    slug: "the-daily-narrative-backend", 
+    category: "Full Stack", 
+    year: 2026, 
+    status: "In-Progress", 
+    featured: true, 
+    image: tdn, 
+    shortDescription: "A TypeScript Express backend for a blogging platform with PostgreSQL, Prisma ORM, JWT authentication, and Stripe subscription checkout.", 
+    longDescription: "The Daily Narrative Backend is a production-ready, enterprise-grade blogging engine built with Node.js, TypeScript, and Express.js. It leverages Prisma ORM for safe PostgreSQL operations, provides resilient security via JWT access/refresh token pairs, and includes built-in monetization using a Stripe subscription pipeline", 
+    highlights: [ 
+      "Role-based Authentication", 
+      "Admin Dashboard", 
+      "Monetization Engine", 
+      "Stripe Payment Integration", 
+      "Data Control", 
+    ], 
+    technologies: [ 
+      "Typescript", 
+      "Node", 
+      "Express", 
+      "Prisma", 
+      "PostgreSQL", 
+      "Stripe", 
+    ], 
+    github: "https://github.com/mdabdurrahman07/the_daily_narrative_backend", 
+    live: "https://github.com/mdabdurrahman07/the_daily_narrative_backend", 
+  }, 
+  { 
+    id: 2, 
+    title: "Unity Spark", 
+    slug: "unity-spark", 
+    category: "Full Stack", 
+    year: 2024, 
+    status: "Completed", 
+    featured: true, 
+    image: unity, 
+    shortDescription: "A collaborative HRM platform featuring attendance tracking, video meetings, chat, payroll, and training management.", 
+    longDescription: "Unity Spark is a modern Human Resource Management platform designed to simplify workforce management. It includes role-based authentication, employee management, attendance tracking, task assignment, payroll, integrated video meetings, real-time messaging, and training management. The system provides separate dashboards for administrators and employees, enabling efficient collaboration and organizational workflow.", 
+    highlights: [ 
+      "Role-based Authentication", 
+      "Employee Dashboard", 
+      "Attendance Tracking", 
+      "Task Management", 
+      "Training Management", 
+      "Real-time Chat", 
+      "Integrated Video Meetings", 
+      "Stripe Payment Integration", 
+    ], 
+    technologies: ["React", "Node", "Express", "MongoDB", "Firebase", "Stripe"], 
+    github: "https://github.com/mursalinmirme/unity-spark/tree/Jamil", 
+    live: "https://unity-spark-22122.web.app/", 
+  }, 
+  { 
+    id: 3, 
+    title: "Momentum Daily", 
+    slug: "momentum-daily", 
+    category: "Full Stack", 
+    year: 2023, 
+    status: "Completed", 
+    featured: true, 
+    image: momentum, 
+    shortDescription: "Modern newspaper platform with article publishing, premium subscriptions, Stripe payment, and an admin dashboard.", 
+    longDescription: "Momentum Daily is a full-stack newspaper platform where users can browse articles, purchase premium memberships, and read exclusive content. Administrators can manage users, publish articles, approve submissions, and monitor the platform through a dedicated dashboard.", 
+    highlights: [ 
+      "JWT Authentication", 
+      "Premium Membership", 
+      "Stripe Payments", 
+      "Article Publishing", 
+      "Admin Dashboard", 
+      "Responsive Design", 
+    ], 
+    technologies: ["React", "Node", "Express", "MongoDB", "Firebase", "Stripe"], 
+    github: "https://github.com/mdabdurrahman07/Momentum-Daily-Client", 
+    live: "https://momentum-daily.web.app/", 
+  }, 
+  { 
+    id: 4, 
+    title: "Quill Quest", 
+    slug: "quill-quest", 
+    category: "Full Stack", 
+    year: 2023, 
+    status: "Completed", 
+    featured: true, 
+    image: quill, 
+    shortDescription: "Book management platform with authentication, CRUD operations, and admin functionality.", 
+    longDescription: "Quill Quest is a book management application where users can browse, add, update, and manage books through an intuitive interface. The application includes secure authentication, CRUD operations, and an administrator panel for managing platform content.", 
+    highlights: [ 
+      "User Authentication", 
+      "Book CRUD Operations", 
+      "Admin Panel", 
+      "Responsive UI", 
+      "Protected Routes", 
+    ], 
+    technologies: ["React", "Node", "Express", "MongoDB", "Firebase"], 
+    github: "https://github.com/mdabdurrahman07/Quill-Quest-Client", 
+    live: "https://quillquest-92dfc.web.app/", 
+  }, 
+  { 
+    id: 5, 
+    title: "Elegant Auto", 
+    slug: "elegant-auto", 
+    category: "Full Stack", 
+    year: 2023, 
+    status: "Completed", 
+    featured: true, 
+    image: elegant, 
+    shortDescription: "Car rental platform with booking functionality and complete CRUD operations.", 
+    longDescription: "Elegant Auto is a car rental platform where users can browse available vehicles, reserve cars, and manage bookings. Administrators can efficiently add, update, and remove vehicles while maintaining the overall inventory through a secure dashboard.", 
+    highlights: [ 
+      "Car Booking", 
+      "CRUD Operations", 
+      "Firebase Authentication", 
+      "Responsive Layout", 
+      "Protected Routes", 
+    ], 
+    technologies: ["React", "Node", "Express", "MongoDB", "Firebase"], 
+    github: "https://github.com/mdabdurrahman07/Elegant-Auto-Client", 
+    live: "https://elegant-auto.web.app/", 
+  }, 
 ];
