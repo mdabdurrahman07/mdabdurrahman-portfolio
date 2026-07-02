@@ -10,7 +10,7 @@ export const projects = [
     slug: "unity-spark",
 
     category: "Full Stack",
-    year: 2026,
+    year: 2024,
     status: "Completed",
     featured: true,
 
@@ -55,7 +55,7 @@ export const projects = [
     slug: "momentum-daily",
 
     category: "Full Stack",
-    year: 2025,
+    year: 2023,
     status: "Completed",
 
     featured: true,
@@ -99,7 +99,7 @@ export const projects = [
     slug: "quill-quest",
 
     category: "Full Stack",
-    year: 2025,
+    year: 2023,
     status: "Completed",
 
     featured: true,
@@ -141,7 +141,7 @@ export const projects = [
     slug: "elegant-auto",
 
     category: "Full Stack",
-    year: 2025,
+    year: 2023,
     status: "Completed",
 
     featured: true,

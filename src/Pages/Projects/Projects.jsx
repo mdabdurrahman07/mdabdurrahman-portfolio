@@ -1,16 +1,19 @@
+/* eslint-disable no-undef */
+import { useEffect, useState } from "react";
 import ProjectCard from "../../Components/ProjectCard/ProjectCard";
 import { projects } from "./ProjectsData";
-
+import ProjectModal from "../../Components/ProjectModal/ProjectModal";
 
 const Projects = () => {
+  const [selectedProject, setSelectedProject] = useState(null);
+  useEffect(() => {
+  if (selectedProject) {
+    document.getElementById("project_modal").showModal();
+  }
+}, [selectedProject]);
   return (
-    <section
-      id="project"
-      className="max-w-7xl mx-auto px-4 py-20"
-    >
-      <h1 className="text-5xl font-bold text-center mb-14">
-        Projects
-      </h1>
+    <section id="project" className="max-w-7xl mx-auto px-4 py-20">
+      <h1 className="text-5xl font-bold text-center mb-14">Projects</h1>
 
       <div
         className="
@@ -22,13 +25,15 @@ const Projects = () => {
           gap-8
         "
       >
-        {projects.map(project => (
+        {projects.map((project) => (
           <ProjectCard
             key={project.id}
             project={project}
+            setSelectedProject={setSelectedProject}
           />
         ))}
       </div>
+      <ProjectModal project={selectedProject} />
     </section>
   );
 };
