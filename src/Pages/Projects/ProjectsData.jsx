@@ -19,6 +19,20 @@ export const projects = [
     shortDescription:
       "A collaborative HRM platform featuring attendance tracking, video meetings, chat, payroll, and training management.",
 
+    longDescription:
+      "Unity Spark is a modern Human Resource Management platform designed to simplify workforce management. It includes role-based authentication, employee management, attendance tracking, task assignment, payroll, integrated video meetings, real-time messaging, and training management. The system provides separate dashboards for administrators and employees, enabling efficient collaboration and organizational workflow.",
+
+    highlights: [
+      "Role-based Authentication",
+      "Employee Dashboard",
+      "Attendance Tracking",
+      "Task Management",
+      "Training Management",
+      "Real-time Chat",
+      "Integrated Video Meetings",
+      "Stripe Payment Integration"
+    ],
+
     technologies: [
       "React",
       "Node",
@@ -43,12 +57,25 @@ export const projects = [
     category: "Full Stack",
     year: 2025,
     status: "Completed",
+
     featured: true,
 
     image: momentum,
 
     shortDescription:
-      "Modern newspaper platform with article publishing, premium subscription, Stripe payment, and admin dashboard.",
+      "Modern newspaper platform with article publishing, premium subscriptions, Stripe payment, and an admin dashboard.",
+
+    longDescription:
+      "Momentum Daily is a full-stack newspaper platform where users can browse articles, purchase premium memberships, and read exclusive content. Administrators can manage users, publish articles, approve submissions, and monitor the platform through a dedicated dashboard.",
+
+    highlights: [
+      "JWT Authentication",
+      "Premium Membership",
+      "Stripe Payments",
+      "Article Publishing",
+      "Admin Dashboard",
+      "Responsive Design"
+    ],
 
     technologies: [
       "React",
@@ -74,12 +101,24 @@ export const projects = [
     category: "Full Stack",
     year: 2025,
     status: "Completed",
+
     featured: true,
 
     image: quill,
 
     shortDescription:
-      "Book management platform with authentication, CRUD operations, admin features, and responsive design.",
+      "Book management platform with authentication, CRUD operations, and admin functionality.",
+
+    longDescription:
+      "Quill Quest is a book management application where users can browse, add, update, and manage books through an intuitive interface. The application includes secure authentication, CRUD operations, and an administrator panel for managing platform content.",
+
+    highlights: [
+      "User Authentication",
+      "Book CRUD Operations",
+      "Admin Panel",
+      "Responsive UI",
+      "Protected Routes"
+    ],
 
     technologies: [
       "React",
@@ -104,12 +143,24 @@ export const projects = [
     category: "Full Stack",
     year: 2025,
     status: "Completed",
+
     featured: true,
 
     image: elegant,
 
     shortDescription:
-      "Car rental platform with authentication, booking system, and complete CRUD functionality.",
+      "Car rental platform with booking functionality and complete CRUD operations.",
+
+    longDescription:
+      "Elegant Auto is a car rental platform where users can browse available vehicles, reserve cars, and manage bookings. Administrators can efficiently add, update, and remove vehicles while maintaining the overall inventory through a secure dashboard.",
+
+    highlights: [
+      "Car Booking",
+      "CRUD Operations",
+      "Firebase Authentication",
+      "Responsive Layout",
+      "Protected Routes"
+    ],
 
     technologies: [
       "React",
@@ -126,4 +177,3 @@ export const projects = [
       "https://elegant-auto.web.app/"
   }
 ];
-
