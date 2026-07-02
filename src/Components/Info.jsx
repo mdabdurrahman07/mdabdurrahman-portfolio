@@ -38,7 +38,7 @@ const Info = () => {
       </h1>
       <h1 className="text-4xl font-bold">
         <Typewriter
-          words={["MERN Stack Developer", "Web Developer", "React Developer"]}
+          words={["Full Stack Developer", "Web Developer"]}
           loop={true}
           cursor
           cursorStyle="_"
@@ -52,36 +52,40 @@ const Info = () => {
       </h1> */}
 
       {/* socail media  */}
-      <div className="flex gap-6">
-        <Link
-          className="hover:-translate-y-2 transition-all"
-          to="https://www.linkedin.com/in/md-abdur-rahman-nur-jamil-8b29412a5/"
-          target="_blank"
-        >
-          <FaLinkedin className="text-3xl text-sky-500"></FaLinkedin>
-        </Link>
-        <Link
-          className="hover:-translate-y-2 transition-all"
-          to="https://github.com/mdabdurrahman07"
-          target="_blank"
-        >
-          <FaGithub className="text-3xl text-zinc-600"></FaGithub>
-        </Link>
-        <Link
-          className="hover:-translate-y-2 transition-all"
-          to="https://www.instagram.com/jamil.official_07/"
-          target="_blank"
-        >
-          <FaInstagram className="text-3xl text-pink-500"></FaInstagram>
-        </Link>
-        <Link
-          className="hover:-translate-y-2 transition-all"
-          to="https://www.facebook.com/mdabdurrahmannurjamil"
-          target="_blank"
-        >
-          <FaFacebook className="text-3xl text-blue-500"></FaFacebook>
-        </Link>
-      </div>
+      <div className="flex gap-5 pt-4">
+            <Link
+              className="hover:-translate-y-1.5 transition-transform p-2 bg-gray-800 rounded-full hover:bg-gray-700"
+              to="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <FaLinkedin className="text-2xl text-sky-400" />
+            </Link>
+            <Link
+              className="hover:-translate-y-1.5 transition-transform p-2 bg-gray-800 rounded-full hover:bg-gray-700"
+              to="https://github.com/mdabdurrahman07"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <FaGithub className="text-2xl text-gray-200" />
+            </Link>
+            <Link
+              className="hover:-translate-y-1.5 transition-transform p-2 bg-gray-800 rounded-full hover:bg-gray-700"
+              to="https://www.instagram.com/jamil.official_07/"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <FaInstagram className="text-2xl text-pink-400" />
+            </Link>
+            <Link
+              className="hover:-translate-y-1.5 transition-transform p-2 bg-gray-800 rounded-full hover:bg-gray-700"
+              to="https://www.facebook.com/mdabdurrahmannurjamil"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <FaFacebook className="text-2xl text-blue-400" />
+            </Link>
+          </div>
       {/* resume download */}
       <div>
         <button
