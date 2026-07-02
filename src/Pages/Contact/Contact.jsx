@@ -1,8 +1,7 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { Link } from "react-router-dom";
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import Swal from "sweetalert2";
+import SocialIcons from "../../Components/SocialIcons/SocialIcons";
 
 const Contact = () => {
   const form = useRef();
@@ -20,8 +19,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          // Fixed typo: .reset() instead of .rest()
-          e.target.reset(); 
+          e.target.reset();
           Swal.fire({
             title: "Well Done",
             text: "Thanks for your message!",
@@ -45,7 +43,7 @@ const Contact = () => {
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-16 tracking-tight">
         Get In Touch
       </h1>
-      
+
       <div className="flex flex-col lg:flex-row justify-between items-start gap-12 lg:gap-20">
         {/* Left Side: Info & Socials */}
         <div className="flex-1 space-y-6">
@@ -58,47 +56,17 @@ const Contact = () => {
             get back to you as soon as possible.
           </p>
 
-          <div className="flex gap-5 pt-4">
-            <Link
-              className="hover:-translate-y-1.5 transition-transform p-2 bg-gray-800 rounded-full hover:bg-gray-700"
-              to="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
-              target="_blank"
-              aria-label="LinkedIn"
-            >
-              <FaLinkedin className="text-2xl text-sky-400" />
-            </Link>
-            <Link
-              className="hover:-translate-y-1.5 transition-transform p-2 bg-gray-800 rounded-full hover:bg-gray-700"
-              to="https://github.com/mdabdurrahman07"
-              target="_blank"
-              aria-label="GitHub"
-            >
-              <FaGithub className="text-2xl text-gray-200" />
-            </Link>
-            <Link
-              className="hover:-translate-y-1.5 transition-transform p-2 bg-gray-800 rounded-full hover:bg-gray-700"
-              to="https://www.instagram.com/jamil.official_07/"
-              target="_blank"
-              aria-label="Instagram"
-            >
-              <FaInstagram className="text-2xl text-pink-400" />
-            </Link>
-            <Link
-              className="hover:-translate-y-1.5 transition-transform p-2 bg-gray-800 rounded-full hover:bg-gray-700"
-              to="https://www.facebook.com/mdabdurrahmannurjamil"
-              target="_blank"
-              aria-label="Facebook"
-            >
-              <FaFacebook className="text-2xl text-blue-400" />
-            </Link>
-          </div>
+          {/* social */}
+          <SocialIcons/>
         </div>
 
         {/* Right Side: Form */}
         <div className="flex-1 w-full bg-gray-900/50 border border-gray-800 p-8 rounded-2xl shadow-xl">
           <form ref={form} onSubmit={sendEmail} className="space-y-6">
             <div>
-              <label className="block text-sm font-medium text-gray-300 mb-2">Name</label>
+              <label className="block text-sm font-medium text-gray-300 mb-2">
+                Name
+              </label>
               <input
                 className="bg-gray-800 border border-gray-700 placeholder-gray-500 text-white text-sm rounded-xl block w-full p-3 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition-all"
                 type="text"
@@ -109,7 +77,9 @@ const Contact = () => {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-300 mb-2">Email Address</label>
+              <label className="block text-sm font-medium text-gray-300 mb-2">
+                Email Address
+              </label>
               <input
                 className="bg-gray-800 border border-gray-700 placeholder-gray-500 text-white text-sm rounded-xl block w-full p-3 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition-all"
                 type="email"
@@ -120,7 +90,9 @@ const Contact = () => {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-300 mb-2">Message</label>
+              <label className="block text-sm font-medium text-gray-300 mb-2">
+                Message
+              </label>
               <textarea
                 className="bg-gray-800 border border-gray-700 placeholder-gray-500 text-white text-sm rounded-xl block w-full p-3 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition-all"
                 rows={4}
