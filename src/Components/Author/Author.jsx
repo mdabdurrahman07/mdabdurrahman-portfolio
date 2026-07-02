@@ -1,4 +1,4 @@
-import profile from '../../assets/pp/md_abdur_rahman.jpg'
+import profile from '../../assets/pp/jamil.png'
 import './author.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';

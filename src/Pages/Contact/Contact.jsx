@@ -2,7 +2,7 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Link } from "react-router-dom";
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import logos from "../../assets/png/logo-no-background-2.png";
+// import logos from "../../assets/png/logo-no-background-2.png";
 import Swal from "sweetalert2";
 // import { Helmet } from "react-helmet-async";
 /* eslint-disable react/no-unescaped-entities */
@@ -44,7 +44,10 @@ const Contact = () => {
       <h1 className="text-5xl font-bold text-center mb-14">Get In Touch</h1>
       <div className="flex-row lg:flex justify-between items-center gap-5 lg:gap-10">
         <div className="flex-1 space-y-5">
-          <img src={logos} alt="" />
+          {/* <img src={logos} alt="" /> */}
+          <h1 className="text-5xl font-medium">
+            MD Abdur Rahman
+          </h1>
           <h1 className="text-xl font-semibold text-left">
             Have a question, comment, or just want to say hello? I'd love to
             hear from you! Please use the contact form to reach out, and I'll
