@@ -6,7 +6,7 @@ const SocialIcons = () => {
          <div className="flex gap-5 pt-4">
             <Link
               className="hover:-translate-y-1.5 transition-transform p-2 bg-gray-800 rounded-full hover:bg-gray-700"
-              to="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+              to="https://www.linkedin.com/in/mdabdurrahman-dev"
               target="_blank"
               aria-label="LinkedIn"
             >
@@ -40,7 +40,7 @@ const SocialIcons = () => {
               className="hover:-translate-y-1.5 transition-transform p-2 bg-gray-800 rounded-full hover:bg-gray-700"
               to="https://x.com/mabdurrahman07"
               target="_blank"
-              aria-label="Facebook"
+              aria-label="Twitter"
             >
               <FaXTwitter className="text-2xl text-stone-200" />
             </Link>
