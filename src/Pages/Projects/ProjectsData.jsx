@@ -3,14 +3,47 @@ import momentum from "../../assets/webs/momentum.png";
 import quill from "../../assets/webs/quil.png";
 import elegant from "../../assets/webs/elegant.png";
 import tdn from "../../assets/webs/daily_narrative_backend.png"
+import fixano from "../../assets/webs/fixano_home.jpeg"
 export const projects = [ 
-  { 
+   { 
     id: 1, 
+    title: "Fixano — Home Services Marketplace", 
+    slug: "fixano", 
+    category: "Full Stack", 
+    year: 2026, 
+    status: "Completed", 
+    featured: true, 
+    image: fixano, 
+    shortDescription: "A modern frontend experience for a home services marketplace where customers can discover services, book trusted technicians, and leave feedback.", 
+    longDescription: "Fixano is a home services marketplace built to connect customers with qualified professionals across categories such as plumbing, electrical work, cleaning, painting, and more. Customers can browse available services, discover technicians, book appointments, make payments, and leave reviews. Technicians can create service profiles, manage availability, and handle bookings, while admins oversee the marketplace by managing users and service categories. The platform is designed to deliver a smooth, secure, and scalable experience for all three roles.", 
+    highlights: [ 
+      "Multi-role marketplace system (admin, customer, technician)", 
+      "Advance search & filtering", 
+      "Appointment & booking management", 
+      "Stripe Payment Integration", 
+      "Review & feedback system", 
+    ], 
+    technologies: [ 
+      "Typescript", 
+      "NextJs", 
+      "Express", 
+      "Zustand",
+      "Zod",
+      "Shadcn",
+      "Prisma", 
+      "PostgreSQL", 
+      "Stripe", 
+    ], 
+    github: "https://github.com/mdabdurrahman07/fixano_frontend", 
+    live: "https://fixano-frontend.vercel.app/", 
+  }, 
+  { 
+    id: 2, 
     title: "The Daily Narrative Backend", 
     slug: "the-daily-narrative-backend", 
     category: "Full Stack", 
     year: 2026, 
-    status: "In-Progress", 
+    status: "Completed", 
     featured: true, 
     image: tdn, 
     shortDescription: "A TypeScript Express backend for a blogging platform with PostgreSQL, Prisma ORM, JWT authentication, and Stripe subscription checkout.", 
@@ -34,7 +67,7 @@ export const projects = [
     live: "https://github.com/mdabdurrahman07/the_daily_narrative_backend", 
   }, 
   { 
-    id: 2, 
+    id: 3, 
     title: "Unity Spark", 
     slug: "unity-spark", 
     category: "Full Stack", 
@@ -59,7 +92,7 @@ export const projects = [
     live: "https://unity-spark-22122.web.app/", 
   }, 
   { 
-    id: 3, 
+    id: 4, 
     title: "Momentum Daily", 
     slug: "momentum-daily", 
     category: "Full Stack", 
@@ -82,7 +115,7 @@ export const projects = [
     live: "https://momentum-daily.web.app/", 
   }, 
   { 
-    id: 4, 
+    id: 5, 
     title: "Quill Quest", 
     slug: "quill-quest", 
     category: "Full Stack", 
@@ -104,7 +137,7 @@ export const projects = [
     live: "https://quillquest-92dfc.web.app/", 
   }, 
   { 
-    id: 5, 
+    id: 6, 
     title: "Elegant Auto", 
     slug: "elegant-auto", 
     category: "Full Stack", 

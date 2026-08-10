@@ -6,8 +6,12 @@ import {
   SiPostgresql,
   SiPrisma,
   SiTypescript,
+  SiZod,
+  SiRadixui
 } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
+import { TbBrandNextjs } from "react-icons/tb";
+import { GiBearFace } from "react-icons/gi";
 
 export const techIcons = {
   React: FaReact,
@@ -19,4 +23,8 @@ export const techIcons = {
   PostgreSQL: SiPostgresql,
   Prisma: SiPrisma,
   Typescript: SiTypescript,
+  NextJs: TbBrandNextjs,
+  Zod: SiZod,
+  Zustand: GiBearFace,
+  Shadcn: SiRadixui
 };

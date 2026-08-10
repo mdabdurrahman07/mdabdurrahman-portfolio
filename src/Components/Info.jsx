@@ -2,7 +2,7 @@
 import { GrDocumentDownload } from "react-icons/gr";
 import { Typewriter } from "react-simple-typewriter";
 const PDF_FILE_URL =
-  "https://md-abdur-rahman-fb9bd.web.app/MD_Abdur_Rahman_Nur_Jamil_RESUME_2024.pdf";
+  "https://md-abdur-rahman-fb9bd.web.app/Resume_of_MD_Abdur_Rahman_Nur_Jamil_Full_Stack_Web_Developer.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import SocialIcons from "./SocialIcons/SocialIcons";

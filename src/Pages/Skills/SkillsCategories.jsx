@@ -1,3 +1,4 @@
+import { GiBearFace } from "react-icons/gi";
 import {
   SiJavascript,
   SiTypescript,
@@ -15,6 +16,8 @@ import {
   SiUbuntu,
   SiVercel,
   SiReactquery,
+  SiZod,
+  SiRadixui
 } from "react-icons/si";
 
 export const skillCategories = [
@@ -36,6 +39,10 @@ export const skillCategories = [
       {
         name: "Tailwind CSS",
         icon: <SiTailwindcss className="text-[#06B6D4]" />,
+      },
+      {
+        name: "Radix UI",
+        icon: <SiRadixui className="text-[#000000]" />,
       },
     ],
   },
@@ -63,6 +70,10 @@ export const skillCategories = [
         name: "TanStack Query",
         icon: <SiReactquery className="text-[#FF4154]" />,
       },
+      {
+        name: "Zustand",
+        icon: <GiBearFace className="text-[#3b1e1e]" />,
+      },
     ],
   },
   {
@@ -71,6 +82,7 @@ export const skillCategories = [
       { name: "Git", icon: <SiGit className="text-[#F05032]" /> },
       { name: "Ubuntu", icon: <SiUbuntu className="text-[#E95420]" /> },
       { name: "Vercel", icon: <SiVercel className="text-current" /> },
+      { name: "Zod", icon: <SiZod className="text-[#083cd8]" /> },
     ],
   },
 ];
