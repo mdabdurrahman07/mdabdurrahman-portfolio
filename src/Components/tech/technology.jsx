@@ -7,7 +7,8 @@ import {
   SiPrisma,
   SiTypescript,
   SiZod,
-  SiRadixui
+  SiRadixui,
+  SiReactquery
 } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -26,5 +27,6 @@ export const techIcons = {
   NextJs: TbBrandNextjs,
   Zod: SiZod,
   Zustand: GiBearFace,
-  Shadcn: SiRadixui
+  Shadcn: SiRadixui,
+  TanStack_Query: SiReactquery
 };

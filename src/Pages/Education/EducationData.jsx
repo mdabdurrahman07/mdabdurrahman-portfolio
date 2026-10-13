@@ -6,7 +6,7 @@ export const educationData = [
       exam: "BBA (Bachelor of Business Administration)",
       institution: "Kabi Nazrul Govt. College",
       board: "Dhaka",
-      result: "CGPA: 3.10 out of 4.00 (3rd Year)",
+      result: "CGPA: 3.04 out of 4.00",
       icon: <FaUniversity className="w-5 h-5 text-primary" />,
       current: true,
     },
